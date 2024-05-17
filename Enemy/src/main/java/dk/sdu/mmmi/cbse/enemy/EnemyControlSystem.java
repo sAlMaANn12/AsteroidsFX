@@ -1,10 +1,9 @@
-package dk.sdu.mmmi.enemy;
+package dk.sdu.mmmi.cbse.enemy;
 
 import dk.sdu.mmmi.cbse.common.bullet.Bullet;
 import dk.sdu.mmmi.cbse.common.bullet.BulletSPI;
 import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.GameData;
-import dk.sdu.mmmi.cbse.common.data.GameKeys;
 import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
 
@@ -12,9 +11,6 @@ import java.util.Collection;
 import java.util.ServiceLoader;
 
 import java.util.stream.Collectors;
-
-
-import static java.util.stream.Collectors.toList;
 
 public class EnemyControlSystem implements IEntityProcessingService {
 

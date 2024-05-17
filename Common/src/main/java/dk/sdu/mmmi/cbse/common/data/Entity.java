@@ -73,4 +73,10 @@ public class Entity implements Serializable {
     }
     public double getWidth () { return width; }
     public double getHeight() { return height; }
+
+    public void handleCollision(GameData gameData, World world, Entity collideEntity) {
+    }
+
+    public void setPolygonCoordinates(int[] coordinates) {
+    }
 }

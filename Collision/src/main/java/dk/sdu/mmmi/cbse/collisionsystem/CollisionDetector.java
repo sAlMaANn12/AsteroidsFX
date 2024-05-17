@@ -15,7 +15,7 @@ import dk.sdu.mmmi.cbse.playersystem.Player;
 
 public class CollisionDetector implements IPostEntityProcessingService {
 
-    private Boolean skipCollision = false;
+
 
     @Override
     public void process(GameData gameData, World world) {

@@ -78,6 +78,9 @@ public class EnemyPlugin implements IGamePluginService {
         enemySpaceship.setRotation(rotation);
     }
 
+    public Entity getEnemy() {
+        return enemy;
+    }
 
 
 }

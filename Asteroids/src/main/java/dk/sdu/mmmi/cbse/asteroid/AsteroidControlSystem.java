@@ -15,7 +15,7 @@ import static java.util.stream.Collectors.toList;
 
 public class AsteroidControlSystem implements IEntityProcessingService, IPostEntityProcessingService {
 
-    private static final int MIN_ASTEROIDS = 3;
+    private static final int MIN_ASTEROIDS = 6;
 
     private AsteroidPlugin asteroidPlugin = new AsteroidPlugin();
     @Override
